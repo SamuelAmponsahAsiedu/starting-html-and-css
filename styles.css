@@ -1,0 +1,72 @@
+/* Element selector */
+h1, h3 {
+    color: orange;
+    font-size: 20px;
+}
+h2 {
+    color: blue;
+}
+
+/* table tbody tr td {
+    color: greenyellow;
+} */
+
+table {
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 10px;
+    /* background-color: greenyellow; */
+    /* background:url('/images/img_1230.jpg'); */
+    /* float: left*/
+}
+
+th {
+    padding: 10px;
+}
+/* div {
+    display: flex;
+    justify-content: center;
+} */
+td {
+    padding: 1px;
+    border: 1px solid orange;
+}
+
+/* ID selector */
+#body_row_1, #body_row_2{
+    color: green;
+}
+
+#header_row {
+    color: orange;
+}
+
+/* Class Selector */
+/* .body_row {
+    color: green;
+} */
+
+.food {
+    display: block;
+}
+
+.food li {
+    display: inline-block;
+    border: 1px solid orange;
+}
+
+.register-box {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid green;
+}
+
+input, selcect, textarea {
+    display: block;
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+}
